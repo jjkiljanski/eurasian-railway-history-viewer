@@ -27808,4 +27808,4 @@ UZ.STN.tog_etagidagi,tog' etagidagi,tog' etagidagi,40.8499755,69.7264997,UZ,,127
 UZ.STN.Akcha,Akcha,Akcha,40.9309806,69.8486093,UZ,,12875051024,,,,,,,open,exact,,,
 UZ.STN.Uglesborochnaya,Углесборочная,Uglesborochnaya,41.0231827,70.1834665,UZ,,12919270370,,,,,,,open,exact,,,
 UZ.STN.Yangiyer_temiryol_vokzali,Yangiyer temiryo'l vokzali,Yangiyer temiryo'l vokzali,40.2962651,68.8248855,UZ,,13274344998,,,,,,,open,exact,,,
-STN_0007, Неизвестная станция, Unknown Station, 60.0, 100.0, RU, mock, low, <radius 5.50> Approximate location
+STN_0007, Неизвестная станция, Unknown Station, 60.0, 100.0, RU,,,,,,,,,mock, Approximate location,,,

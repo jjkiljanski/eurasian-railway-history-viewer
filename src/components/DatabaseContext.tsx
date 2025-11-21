@@ -233,12 +233,12 @@ export function DatabaseProvider({ children }: DatabaseProviderProps) {
           { event_id: 'EVT_0003', event_type: 'station_open', date: '1903-07-21', date_precision: 'day', station_id: 'RU.STN.Vladivostok', description: 'Vladivostok opened' },
           { event_id: 'EVT_0004', event_type: 'station_open', date: '1878-05-01', date_precision: 'month', station_id: 'RU.STN.Ekaterinburg-Passazhirskiy', description: 'Yekaterinburg opened' },
           { event_id: 'EVT_0005', event_type: 'station_open', date: '1893-04-01', date_precision: 'month', station_id: 'RU.STN.Novosibirsk-Glavnyy', description: 'Novosibirsk opened' },
-          { event_id: 'EVT_0006', event_type: 'station_open', date: '1898-08-16', date_precision: 'day', station_id: 'RU.STN.Irkutsk-Passazhirskiy', description: 'Irkutsk opened' },
-          { event_id: 'EVT_0007', event_type: 'station_close', date: '1975-06-01', date_precision: 'month', station_id: 'RU.STN.Irkutsk-Passazhirskiy', description: 'Irkutsk closed' },
+          { event_id: 'EVT_0006', event_type: 'station_open', date: '1898-08-16', date_precision: 'day', station_id: 'RU.STN.Irkutsk-Passazhirskiy', description: 'Irkutsk closed' },
+          { event_id: 'EVT_0007', event_type: 'station_close', date: '1975-06-01', date_precision: 'month', station_id: 'RU.STN.Vladivostok', description: 'Vladivostok closed' },
           { event_id: 'EVT_0008', event_type: 'electrification', date: '1935-12-15', date_precision: 'day', station_id: 'RU.STN.Moskva-Passazhirskaya-Paveletskaya', description: 'Moscow electrified' },
           { event_id: 'EVT_0009', event_type: 'electrification', date: '1936-01-10', date_precision: 'day', station_id: 'RU.STN.Sankt-Peterburg-Baltiyskiy', description: 'Saint Petersburg electrified' },
           { event_id: 'EVT_0010', event_type: 'station_open', date: '1860-01-01', date_precision: 'year', station_id: 'STN_0007', description: 'Mock station opened' },
-          { event_id: 'EVT_0011', event_type: 'station_open', date: '1896-09-12', date_precision: 'day', station_id: 'STN_0008', description: 'Kazan opened' },
+          { event_id: 'EVT_0011', event_type: 'station_open', date: '1896-09-12', date_precision: 'day', station_id: 'RU.STN.Kazan-Passazhirskaya', description: 'Kazan opened' },
           { event_id: 'EVT_SEG_0001', event_type: 'segment_open', date: '1851-11-01', date_precision: 'month', segment_id: 'SEG_0001', description: 'Moscow-Petersburg segment opened' },
           { event_id: 'EVT_SEG_0002', event_type: 'segment_open', date: '1916-10-05', date_precision: 'day', segment_id: 'SEG_0002', description: 'Trans-Siberian segment opened' },
           { event_id: 'EVT_SEG_0003', event_type: 'segment_open', date: '1916-10-05', date_precision: 'day', segment_id: 'SEG_0003', description: 'Trans-Siberian segment opened' },
@@ -247,17 +247,17 @@ export function DatabaseProvider({ children }: DatabaseProviderProps) {
           { event_id: 'EVT_SEG_0006', event_type: 'segment_open', date: '1900-01-01', date_precision: 'year', segment_id: 'SEG_0006', description: 'Northern segment opened' },
           { event_id: 'EVT_SEG_0007', event_type: 'segment_open', date: '1902-01-01', date_precision: 'year', segment_id: 'SEG_0007', description: 'Western connection opened' },
           { event_id: 'EVT_SEG_0008', event_type: 'electrification', date: '1935-12-15', date_precision: 'day', segment_id: 'SEG_0001', description: 'Moscow-Petersburg electrified' },
-          { event_id: 'EVT_SEG_0009', event_type: 'segment_close', date: '1975-06-01', date_precision: 'month', segment_id: 'SEG_0005', description: 'Irkutsk segment closed' },
+          { event_id: 'EVT_SEG_0009', event_type: 'segment_close', date: '1975-06-01', date_precision: 'month', segment_id: 'SEG_0003', description: 'Vladivostok segment closed' },
         ];
 
         const demoSegments: Segment[] = [
           { segment_id: 'SEG_0001', from_station_id: 'RU.STN.Moskva-Passazhirskaya-Paveletskaya', to_station_id: 'RU.STN.Sankt-Peterburg-Baltiyskiy', geometry: [[55.7765, 37.6550], [59.9311, 30.3609]], geometry_quality: 'high' },
-          { segment_id: 'SEG_0002', from_station_id: 'RU.STN.Sankt-Peterburg-Baltiyskiy', to_station_id: 'RU.STN.Vladivostok', geometry: [[59.9311, 30.3609], [43.1056, 131.8735]], geometry_quality: 'high' },
-          { segment_id: 'SEG_0003', from_station_id: 'RU.STN.Vladivostok', to_station_id: 'RU.STN.Ekaterinburg-Passazhirskiy', geometry: [[43.1056, 131.8735], [56.8519, 60.6122]], geometry_quality: 'medium' },
+          { segment_id: 'SEG_0002', from_station_id: 'RU.STN.Kazan-Passazhirskaya', to_station_id: 'RU.STN.Ekaterinburg-Passazhirskiy', geometry: [[55.7887, 49.1221], [56.8519, 60.6122]], geometry_quality: 'high' },
+          { segment_id: 'SEG_0003', from_station_id: 'RU.STN.Vladivostok', to_station_id: 'RU.STN.Irkutsk-Passazhirskiy', geometry: [[43.1056, 131.8735], [52.2869, 104.3050]], geometry_quality: 'medium' },
           { segment_id: 'SEG_0004', from_station_id: 'RU.STN.Ekaterinburg-Passazhirskiy', to_station_id: 'RU.STN.Novosibirsk-Glavnyy', geometry: [[56.8519, 60.6122], [55.0415, 82.9346]], geometry_quality: 'high' },
           { segment_id: 'SEG_0005', from_station_id: 'RU.STN.Novosibirsk-Glavnyy', to_station_id: 'RU.STN.Irkutsk-Passazhirskiy', geometry: [[55.0415, 82.9346], [52.2869, 104.3050]], geometry_quality: 'medium' },
           { segment_id: 'SEG_0006', from_station_id: 'RU.STN.Irkutsk-Passazhirskiy', to_station_id: 'STN_0007', geometry: [[52.2869, 104.3050], [60.0, 100.0]], geometry_quality: 'low' },
-          { segment_id: 'SEG_0007', from_station_id: 'STN_0007', to_station_id: 'STN_0008', geometry: [[60.0, 100.0], [55.7887, 49.1221]], geometry_quality: 'high' },
+          { segment_id: 'SEG_0007', from_station_id: 'RU.STN.Moskva-Passazhirskaya-Paveletskaya', to_station_id: 'RU.STN.Kazan-Passazhirskaya', geometry: [[55.7290973,37.6408132], [55.7887, 49.1221]], geometry_quality: 'high' },
         ];
 
         setStations(loadedStations);
