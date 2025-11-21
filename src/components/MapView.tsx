@@ -33,17 +33,24 @@ interface MapViewProps {
 }
 
 export function MapView({ currentYear }: MapViewProps) {
-  const stationZoomThreshold = 6; // hide station markers until this zoom to reduce clutter
   const { queryDataForYear, isLoading } = useDatabase();
   const [stations, setStations] = useState<Station[]>([]);
   const [segments, setSegments] = useState<Segment[]>([]);
+  const [showPlanned, setShowPlanned] = useState(false);
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<any>(null);
   const layersRef = useRef<any[]>([]);
   const drawLayerRef = useRef<any>(null);
   const drawControlRef = useRef<any>(null);
   const clearControlRef = useRef<any>(null);
+  const plannedToggleRef = useRef<HTMLButtonElement | null>(null);
   const [currentZoom, setCurrentZoom] = useState(4);
+
+  useEffect(() => {
+    if (plannedToggleRef.current) {
+      plannedToggleRef.current.innerText = showPlanned ? 'Hide' : 'Show';
+    }
+  }, [showPlanned]);
 
   useEffect(() => {
     if (!isLoading) {
@@ -139,7 +146,7 @@ export function MapView({ currentYear }: MapViewProps) {
 
         map.on(L.Draw.Event.CREATED, handleDrawCreated);
 
-        // Clear-control button
+        // Clear-control button + planned toggle stacked
         const ClearControl = L.Control.extend({
           options: { position: 'topleft' },
           onAdd: () => {
@@ -156,6 +163,28 @@ export function MapView({ currentYear }: MapViewProps) {
             L.DomEvent.disableClickPropagation(button);
             L.DomEvent.on(button, 'click', () => {
               drawLayer.clearLayers();
+            });
+
+            const toggle = L.DomUtil.create('button', '', container) as HTMLButtonElement;
+            toggle.type = 'button';
+            toggle.title = 'Show all stations in Russia and countries partitioned by Russia in the past';
+            toggle.style.width = '60px';
+            toggle.style.height = '30px';
+            toggle.style.background = '#000';
+            toggle.style.color = '#fff';
+            toggle.style.cursor = 'pointer';
+            plannedToggleRef.current = toggle;
+
+            const updateToggleLabel = (visible: boolean) => {
+              if (!plannedToggleRef.current) return;
+              plannedToggleRef.current.innerText = visible ? 'Hide' : 'Show';
+            };
+
+            updateToggleLabel(showPlanned);
+
+            L.DomEvent.disableClickPropagation(toggle);
+            L.DomEvent.on(toggle, 'click', () => {
+              setShowPlanned(prev => !prev);
             });
 
             return container;
@@ -252,11 +281,11 @@ export function MapView({ currentYear }: MapViewProps) {
       const isEndpoint = endpointStations.has(station.station_id);
       const isPlanned = station.state === 'planned';
 
-      // Skip non-endpoint stations when zoomed out
-      if (!isEndpoint && currentZoom < stationZoomThreshold) {
+      // Hide planned stations when toggle is off
+      if (isPlanned && !showPlanned) {
         return;
       }
-      
+
       // Build popup content
       let popupHTML = `
         <div style="min-width: 200px;">
