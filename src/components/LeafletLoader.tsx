@@ -17,9 +17,24 @@ export function LeafletLoader() {
     script.crossOrigin = '';
     document.head.appendChild(script);
 
+    // Load Leaflet Draw CSS
+    const drawLink = document.createElement('link');
+    drawLink.rel = 'stylesheet';
+    drawLink.href = 'https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css';
+    drawLink.crossOrigin = '';
+    document.head.appendChild(drawLink);
+
+    // Load Leaflet Draw JavaScript (after Leaflet)
+    const drawScript = document.createElement('script');
+    drawScript.src = 'https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js';
+    drawScript.crossOrigin = '';
+    document.head.appendChild(drawScript);
+
     return () => {
       document.head.removeChild(link);
       document.head.removeChild(script);
+      document.head.removeChild(drawLink);
+      document.head.removeChild(drawScript);
     };
   }, []);
 

@@ -39,6 +39,9 @@ export function MapView({ currentYear }: MapViewProps) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<any>(null);
   const layersRef = useRef<any[]>([]);
+  const drawLayerRef = useRef<any>(null);
+  const drawControlRef = useRef<any>(null);
+  const clearControlRef = useRef<any>(null);
   const [currentZoom, setCurrentZoom] = useState(4);
 
   useEffect(() => {
@@ -73,6 +76,103 @@ export function MapView({ currentYear }: MapViewProps) {
         setCurrentZoom(map.getZoom());
       });
 
+      const initDrawControls = () => {
+        if (!(window as any).L || !(window as any).L.Draw) {
+          setTimeout(initDrawControls, 100);
+          return;
+        }
+
+        if (drawLayerRef.current) return;
+
+        const drawLayer = L.featureGroup().addTo(map);
+        drawLayerRef.current = drawLayer;
+
+        const drawControl = new L.Control.Draw({
+          draw: {
+            circle: {
+              shapeOptions: {
+                color: '#eab308',
+                fillColor: '#fef08a',
+                fillOpacity: 0.35,
+                weight: 2,
+              },
+            },
+            polyline: false,
+            polygon: false,
+            rectangle: false,
+            marker: false,
+            circlemarker: false,
+          },
+          edit: {
+            featureGroup: drawLayer,
+            remove: true,
+          },
+        });
+
+        map.addControl(drawControl);
+        drawControlRef.current = drawControl;
+
+        const CopyToast = (message: string) => {
+          if (navigator?.clipboard?.writeText) {
+            navigator.clipboard.writeText(message);
+          } else {
+            window.prompt('Copy to clipboard:', message);
+          }
+        };
+
+        const handleDrawCreated = (event: any) => {
+          const layer = event.layer;
+          drawLayer.addLayer(layer);
+
+          const latlng = layer.getLatLng ? layer.getLatLng() : { lat: 0, lng: 0 };
+          const radiusMeters = layer.getRadius ? layer.getRadius() : 0;
+          const radiusKm = radiusMeters / 1000;
+
+          const payload = `""",,,${latlng.lat.toFixed(4)},${latlng.lng.toFixed(4)},,,,,,,,,,,,,<radius ${radiusKm.toFixed(2)}>"""`;
+          CopyToast(payload);
+
+          if (layer.bindPopup) {
+            layer.bindPopup(`<div><strong>Mock station</strong><br/>${payload}</div>`);
+          }
+        };
+
+        map.on(L.Draw.Event.CREATED, handleDrawCreated);
+
+        // Clear-control button
+        const ClearControl = L.Control.extend({
+          options: { position: 'topleft' },
+          onAdd: () => {
+            const container = L.DomUtil.create('div', 'leaflet-bar');
+            const button = L.DomUtil.create('button', '', container);
+            button.type = 'button';
+            button.title = 'Clear drawn circles';
+            button.innerText = 'Clear';
+            button.style.width = '60px';
+            button.style.height = '30px';
+            button.style.background = '#fff';
+            button.style.cursor = 'pointer';
+
+            L.DomEvent.disableClickPropagation(button);
+            L.DomEvent.on(button, 'click', () => {
+              drawLayer.clearLayers();
+            });
+
+            return container;
+          },
+        });
+
+        const clearControl = new ClearControl();
+        clearControl.addTo(map);
+        clearControlRef.current = clearControl;
+
+        // Cleanup listeners when unmounting
+        map.on('unload', () => {
+          map.off(L.Draw.Event.CREATED, handleDrawCreated);
+        });
+      };
+
+      initDrawControls();
+
       mapInstanceRef.current = map;
     };
 
@@ -80,6 +180,18 @@ export function MapView({ currentYear }: MapViewProps) {
 
     return () => {
       if (mapInstanceRef.current) {
+        if (drawLayerRef.current) {
+          drawLayerRef.current.clearLayers();
+          drawLayerRef.current = null;
+        }
+        if (drawControlRef.current && mapInstanceRef.current.removeControl) {
+          mapInstanceRef.current.removeControl(drawControlRef.current);
+          drawControlRef.current = null;
+        }
+        if (clearControlRef.current && mapInstanceRef.current.removeControl) {
+          mapInstanceRef.current.removeControl(clearControlRef.current);
+          clearControlRef.current = null;
+        }
         mapInstanceRef.current.remove();
         mapInstanceRef.current = null;
       }
