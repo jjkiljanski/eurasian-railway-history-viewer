@@ -389,9 +389,10 @@ export function DatabaseProvider({ children }: DatabaseProviderProps) {
         .filter(e => e.year <= year)
         .sort((a, b) => b.year - a.year)[0];
 
-      const openYear = openEvent ? openEvent.year : -Infinity;
+      const openYear = openEvent ? openEvent.year : Infinity;
       const closeYear = closeEvent ? closeEvent.year : null;
 
+      if (!openEvent) return; // Skip segments that are not yet open
       if (year < openYear) return;
       if (closeYear && closeYear < year) return;
 

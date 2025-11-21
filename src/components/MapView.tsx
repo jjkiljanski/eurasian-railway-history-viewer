@@ -281,7 +281,7 @@ export function MapView({ currentYear }: MapViewProps) {
       const isEndpoint = endpointStations.has(station.station_id);
       const isPlanned = station.state === 'planned';
 
-      // Hide planned stations when toggle is off
+      // Hide planned stations (including planned mocks) when toggle is off
       if (isPlanned && !showPlanned) {
         return;
       }
@@ -329,7 +329,15 @@ export function MapView({ currentYear }: MapViewProps) {
 
       popupHTML += `</div></div>`;
 
+      const plannedColor = '#94a3b8';
+      const newColor = '#16a34a';
+      const closedColor = '#dc2626';
+      const existingColor = '#000000';
+      const mockColor = '#eab308';
+
       if (isMock) {
+        const markerColor = mockColor;
+
         // Extract radius if available
         let radius = 5; // default radius in km
         if (station.notes) {
@@ -345,8 +353,8 @@ export function MapView({ currentYear }: MapViewProps) {
           
           const circle = L.circle([station.lat, station.lon], {
             radius: radiusMeters,
-            color: '#eab308', // yellow
-            fillColor: '#eab308',
+            color: markerColor, // yellow
+            fillColor: markerColor,
             fillOpacity: 0.15,
             weight: 2,
             opacity: 0.6,
@@ -357,11 +365,11 @@ export function MapView({ currentYear }: MapViewProps) {
           layersRef.current.push(circle);
         }
         
-        // Always show a regular marker for mock stations
+        // Always show a regular marker for mock stations (toggle already applied for planned)
         const marker = L.circleMarker([station.lat, station.lon], {
           radius: 5,
-          color: '#eab308', // yellow
-          fillColor: '#eab308',
+          color: markerColor,
+          fillColor: markerColor,
           fillOpacity: 0.8,
           weight: 2,
         });
@@ -370,13 +378,24 @@ export function MapView({ currentYear }: MapViewProps) {
         marker.addTo(mapInstanceRef.current);
         layersRef.current.push(marker);
       } else {
-        // Regular station - planned stations in grey, built stations in black
-        const markerColor = isPlanned ? '#94a3b8' : '#000000';
+        // Regular station
+        let markerColor = existingColor;
+        let fillOpacity = 0.9;
+
+        if (station.state === 'planned') {
+          markerColor = plannedColor;
+          fillOpacity = 0.6;
+        } else if (station.state === 'new') {
+          markerColor = newColor;
+        } else if (station.state === 'closed') {
+          markerColor = closedColor;
+        }
+
         const marker = L.circleMarker([station.lat, station.lon], {
           radius: 4,
           color: markerColor,
           fillColor: markerColor,
-          fillOpacity: isPlanned ? 0.6 : 0.9,
+          fillOpacity,
           weight: 1,
         });
 
@@ -385,7 +404,7 @@ export function MapView({ currentYear }: MapViewProps) {
         layersRef.current.push(marker);
       }
     });
-  }, [stations, segments, currentZoom]);
+  }, [stations, segments, currentZoom, showPlanned]);
 
   if (isLoading) {
     return (
