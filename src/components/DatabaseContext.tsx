@@ -137,7 +137,15 @@ const normalizeGeometry = (raw: any): [number, number][] => {
     try {
       data = JSON.parse(raw);
     } catch {
-      return [];
+      // Try to sanitize simple GeoJSON-like strings that use single quotes or unquoted geometry types.
+      try {
+        const sanitized = raw
+          .replace(/'/g, '"')
+          .replace(/\b(LineString|MultiLineString|Polygon|MultiPolygon|Point|MultiPoint)\b/g, '"$1"');
+        data = JSON.parse(sanitized);
+      } catch {
+        return [];
+      }
     }
   }
 
