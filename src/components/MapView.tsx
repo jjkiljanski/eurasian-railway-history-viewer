@@ -332,7 +332,7 @@ export function MapView({ currentYear }: MapViewProps) {
       }
 
       if (station.wikipedia_ru) {
-        popupHTML += `<div><strong>Wikipedia:</strong> <a href=${station.wikipedia_ru}" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline;">${station.wikipedia_ru}</a></div>`;
+        popupHTML += `<div><strong>Wikipedia:</strong> <a href="${station.wikipedia_ru}" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline;">${station.wikipedia_ru}</a></div>`;
       }
 
       if (station.parovoz_url) {
