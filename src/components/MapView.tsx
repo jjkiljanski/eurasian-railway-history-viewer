@@ -324,7 +324,7 @@ export function MapView({ currentYear }: MapViewProps) {
       }
 
       if (station.osm_node_id) {
-        popupHTML += `<div><strong>OSM Node:</strong> <a href="https://www.openstreetmap.org/node/${station.osm_node_id}" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline;">${station.osm_node_id}</a></div>`;
+        popupHTML += `<div><strong>OSM Node:</strong> <a href="${station.osm_node_id}" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline;">${station.osm_node_id}</a></div>`;
       }
 
       if (station.wikidata_id) {
