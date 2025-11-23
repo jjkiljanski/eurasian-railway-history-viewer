@@ -36,7 +36,7 @@ function AppContent() {
       <header className="bg-slate-800 text-white p-4 shadow-lg z-10">
         <div className="flex items-start gap-3">
           <div className="flex-1">
-            <h1>Russian Railway History Database 1832-1989</h1>
+            <h1>Eurasian Railway History Database 1832-1989</h1>
             <p className="text-sm text-slate-300 mt-1">
               Internal tool for database construction
             </p>

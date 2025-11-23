@@ -179,7 +179,7 @@ export function MapView({ currentYear }: MapViewProps) {
 
             const toggle = L.DomUtil.create('button', '', container) as HTMLButtonElement;
             toggle.type = 'button';
-            toggle.title = 'Show all stations in Russia and countries partitioned by Russia in the past';
+            toggle.title = 'Show all stations in the Eurasian database scope';
             toggle.style.width = '60px';
             toggle.style.height = '30px';
             toggle.style.background = '#000';

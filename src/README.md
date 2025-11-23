@@ -1,10 +1,10 @@
-# Russian Railway History Database Viewer
+# Eurasian Railway History Database Viewer
 
-Internal tool for viewing and constructing a database of Russian railway history from 1832-1989.
+Internal tool for viewing and constructing a database of Eurasian railway history from 1832-1989.
 
 ## Features
 
-- Interactive map displaying railway stations across Russia and neighboring countries
+- Interactive map displaying railway stations across Eurasia
 - Time-based filtering with year slider (1832-1989)
 - Color-coded stations based on status:
   - **Black**: Existing stations
