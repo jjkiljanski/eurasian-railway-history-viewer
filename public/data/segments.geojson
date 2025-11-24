@@ -341,13 +341,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            59.9187223,
+            30.3303831
+          ],
+          [
+            59.5518636,
+            30.1328612
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000015",
         "from_station_id": "RU.STN.Sankt-Peterburg-Vitebskiy",
-        "to_station_id": "Гатчина",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "RU.STN.Gatchina-Varshavskaya",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -370,7 +382,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000017",
-        "from_station_id": "Гатчина",
+        "from_station_id": "RU.STN.Gatchina-Varshavskaya",
         "to_station_id": "Луга",
         "geometry_source": "",
         "geometry_quality": "",
@@ -2217,7 +2229,7 @@
       "properties": {
         "segment_id": "SEG_AUTO_000159",
         "from_station_id": "Красное Село",
-        "to_station_id": "Гатчина",
+        "to_station_id": "RU.STN.Gatchina-Varshavskaya",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
@@ -12435,7 +12447,7 @@
       "properties": {
         "segment_id": "SEG_AUTO_000945",
         "from_station_id": "Тайцы",
-        "to_station_id": "Гатчина Балт.",
+        "to_station_id": "RU.STN.Gatchina-Baltiyskaya_Passazhirskaya",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
@@ -12548,13 +12560,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            59.5591049,
+            30.1035969
+          ],
+          [
+            59.5518636,
+            30.1328612
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000954",
-        "from_station_id": "Гатчина Балт.",
-        "to_station_id": "Гатчина Варшавская",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Gatchina-Baltiyskaya_Passazhirskaya",
+        "to_station_id": "RU.STN.Gatchina-Varshavskaya",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
