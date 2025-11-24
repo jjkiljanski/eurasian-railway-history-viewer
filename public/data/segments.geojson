@@ -578,7 +578,7 @@
       "properties": {
         "segment_id": "SEG_AUTO_000032",
         "from_station_id": "RU.STN.Moscow_Yaroslavsky_railway_station",
-        "to_station_id": "Сергиево",
+        "to_station_id": "Sergiev_Posad",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
@@ -1150,7 +1150,7 @@
       "properties": {
         "segment_id": "SEG_AUTO_000076",
         "from_station_id": "Козлов",
-        "to_station_id": "Тамбов",
+        "to_station_id": "RU.STN.Tambov-1",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
@@ -1237,13 +1237,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.0742776,
+            23.6015831
+          ],
+          [
+            52.1004334,
+            23.6804112
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000083",
-        "from_station_id": "Лобачев",
-        "to_station_id": "Брест",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "PL.STN.Terespol",
+        "to_station_id": "BY.STN.Brest-Zentralny",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -1253,8 +1265,8 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000084",
-        "from_station_id": "Сергиево",
-        "to_station_id": "Ярославль",
+        "from_station_id": "Sergiev_Posad",
+        "to_station_id": "RU.STN.Yaroslavl",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
@@ -1266,8 +1278,8 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000085",
-        "from_station_id": "Днепр",
-        "to_station_id": "Киев",
+        "from_station_id": "UA.STN.Dnepr",
+        "to_station_id": "UA.STN.Kyiv-Pasazhirskiy",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
@@ -1276,13 +1288,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.9792652,
+            36.1121037
+          ],
+          [
+            52.6026864,
+            38.2773175
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000086",
-        "from_station_id": "Орел",
-        "to_station_id": "Казаки",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Orel",
+        "to_station_id": "RU.STN.Kazaki",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -1293,7 +1317,7 @@
       "properties": {
         "segment_id": "SEG_AUTO_000087",
         "from_station_id": "Казатин",
-        "to_station_id": "Киев",
+        "to_station_id": "UA.STN.Kyiv-Pasazhirskiy",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
@@ -1302,39 +1326,75 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            49.0345312,
+            28.1115461
+          ],
+          [
+            49.8895725,
+            28.6131692
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000088",
-        "from_station_id": "Жмеринка",
-        "to_station_id": "Бердичев",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "UA.STN.Zhmerynka",
+        "to_station_id": "UA.STN.Berdychiv",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            57.1270937,
+            35.4653818
+          ],
+          [
+            57.0422891,
+            34.9804503
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000089",
-        "from_station_id": "Лихославль",
-        "to_station_id": "Торжок",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Likhoslavl",
+        "to_station_id": "RU.STN.Torzhok",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.6026864,
+            38.2773175
+          ],
+          [
+            52.6059442,
+            38.5257454
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000090",
-        "from_station_id": "Казаки",
-        "to_station_id": "Елец",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Kazaki",
+        "to_station_id": "RU.STN.Elets",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -1344,8 +1404,8 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000091",
-        "from_station_id": "Рыбинск",
-        "to_station_id": "Бологое",
+        "from_station_id": "RU.STN.Rybinsk-Passazhirskiy",
+        "to_station_id": "RU.STN.Bologoye-Moskovskoye",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
@@ -1354,26 +1414,50 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            47.7500196,
+            29.5286062
+          ],
+          [
+            49.0345312,
+            28.1115461
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000092",
-        "from_station_id": "Бирзула",
-        "to_station_id": "Жмеринка",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "UA.STN.Podilsk",
+        "to_station_id": "UA.STN.Zhmerynka",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.7172141,
+            41.427383
+          ],
+          [
+            52.564389,
+            42.9653513
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000093",
-        "from_station_id": "Тамбов",
-        "to_station_id": "Умет",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Tambov-1",
+        "to_station_id": "RU.STN.Umet",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -1513,7 +1597,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000104",
-        "from_station_id": "Умет",
+        "from_station_id": "RU.STN.Umet",
         "to_station_id": "Аткарск",
         "geometry_source": "",
         "geometry_quality": "",
@@ -1643,7 +1727,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000114",
-        "from_station_id": "Жмеринка",
+        "from_station_id": "UA.STN.Zhmerynka",
         "to_station_id": "Волочиск",
         "geometry_source": "",
         "geometry_quality": "",
@@ -1683,7 +1767,7 @@
       "properties": {
         "segment_id": "SEG_AUTO_000117",
         "from_station_id": "Смоленск",
-        "to_station_id": "Брест",
+        "to_station_id": "BY.STN.Brest-Zentralny",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
@@ -2150,7 +2234,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000153",
-        "from_station_id": "Бердичев",
+        "from_station_id": "UA.STN.Berdychiv",
         "to_station_id": "Кривин",
         "geometry_source": "",
         "geometry_quality": "",
@@ -2290,13 +2374,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.1004334,
+            23.6804112
+          ],
+          [
+            53.650103,
+            22.448183
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000164",
-        "from_station_id": "Брест",
-        "to_station_id": "Граево",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "BY.STN.Brest-Zentralny",
+        "to_station_id": "PL.STN.Grajewo",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -2306,7 +2402,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000165",
-        "from_station_id": "Граево",
+        "from_station_id": "PL.STN.Grajewo",
         "to_station_id": "прусская граница (0,673 саж.)",
         "geometry_source": "",
         "geometry_quality": "",
@@ -2359,7 +2455,7 @@
       "properties": {
         "segment_id": "SEG_AUTO_000169",
         "from_station_id": "Ковель",
-        "to_station_id": "Брест",
+        "to_station_id": "BY.STN.Brest-Zentralny",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
@@ -2579,7 +2675,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000186",
-        "from_station_id": "Торжок",
+        "from_station_id": "RU.STN.Torzhok",
         "to_station_id": "Ржевск",
         "geometry_source": "",
         "geometry_quality": "",
@@ -3983,7 +4079,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000294",
-        "from_station_id": "Брест",
+        "from_station_id": "BY.STN.Brest-Zentralny",
         "to_station_id": "Холм",
         "geometry_source": "",
         "geometry_quality": "",
@@ -4217,7 +4313,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000312",
-        "from_station_id": "Конец линии Лихославль",
+        "from_station_id": "Конец линии RU.STN.Likhoslavl",
         "to_station_id": "Вязьма",
         "geometry_source": "",
         "geometry_quality": "",
@@ -4412,7 +4508,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000327",
-        "from_station_id": "Жмеринка",
+        "from_station_id": "UA.STN.Zhmerynka",
         "to_station_id": "Могилев",
         "geometry_source": "",
         "geometry_quality": "",
@@ -4984,7 +5080,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000371",
-        "from_station_id": "Тамбов",
+        "from_station_id": "RU.STN.Tambov-1",
         "to_station_id": "Балашов",
         "geometry_source": "",
         "geometry_quality": "",
@@ -5726,7 +5822,7 @@
       "properties": {
         "segment_id": "SEG_AUTO_000428",
         "from_station_id": "Жабинка",
-        "to_station_id": "Брест",
+        "to_station_id": "BY.STN.Brest-Zentralny",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
@@ -5739,7 +5835,7 @@
       "properties": {
         "segment_id": "SEG_AUTO_000429",
         "from_station_id": "Конец пути Жабинка",
-        "to_station_id": "Брест",
+        "to_station_id": "BY.STN.Brest-Zentralny",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
@@ -6476,13 +6572,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            57.6256015,
+            39.8353002
+          ],
+          [
+            58.0416652,
+            38.8337664
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000486",
-        "from_station_id": "Ярославль",
-        "to_station_id": "Рыбинск",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Yaroslavl-Glavny",
+        "to_station_id": "RU.STN.Rybinsk-Passazhirskiy",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -7181,7 +7289,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000540",
-        "from_station_id": "Бердичев",
+        "from_station_id": "UA.STN.Berdychiv",
         "to_station_id": "Калиновка",
         "geometry_source": "",
         "geometry_quality": "",
@@ -8976,7 +9084,7 @@
       "properties": {
         "segment_id": "SEG_AUTO_000678",
         "from_station_id": "2. С 1 января 1907 г. Курско-Харьково-Севастопольская и Харьково-Николаевская ж. д. соединены под названием Южные ж. д, а С.‑Петербурго-Варшавская с Балтийской и Псково-Рижской ж. д. соединены под названием Северо-Западных ж. д. Сверх того с 1 января 1907 г. участок Брест",
-        "to_station_id": "Граево Юго-Западных ж. д. передан в заведование Привислинских ж. д.",
+        "to_station_id": "PL.STN.Grajewo Юго-Западных ж. д. передан в заведование Привислинских ж. д.",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
@@ -10275,7 +10383,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000778",
-        "from_station_id": "Торжок",
+        "from_station_id": "RU.STN.Torzhok",
         "to_station_id": "Селижарово",
         "geometry_source": "",
         "geometry_quality": "",
@@ -14018,7 +14126,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_001065",
-        "from_station_id": "Брест",
+        "from_station_id": "BY.STN.Brest-Zentralny",
         "to_station_id": "Литовская",
         "geometry_source": "",
         "geometry_quality": "",
