@@ -1275,13 +1275,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            50.416389,
+            30.585833
+          ],
+          [
+            50.4399458,
+            30.4875526
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000085",
         "from_station_id": "UA.STN.Dnepr",
         "to_station_id": "UA.STN.Kyiv-Pasazhirskiy",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
