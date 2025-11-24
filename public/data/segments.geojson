@@ -1313,13 +1313,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            49.7050724,
+            28.8299274
+          ],
+          [
+            50.4399458,
+            30.4875526
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000087",
-        "from_station_id": "Казатин",
+        "from_station_id": "UA.STN.Kazatin_1",
         "to_station_id": "UA.STN.Kyiv-Pasazhirskiy",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -1494,7 +1506,7 @@
       "properties": {
         "segment_id": "SEG_AUTO_000096",
         "from_station_id": "Балтийский Порт",
-        "to_station_id": "Тосно",
+        "to_station_id": "RU.STN.Tosno",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
@@ -1507,7 +1519,7 @@
       "properties": {
         "segment_id": "SEG_AUTO_000097",
         "from_station_id": "Конец главного пути Балтийский Порт",
-        "to_station_id": "Тосно",
+        "to_station_id": "RU.STN.Tosno",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
@@ -22967,7 +22979,7 @@
       "properties": {
         "segment_id": "SEG_AUTO_001745",
         "from_station_id": "Мга",
-        "to_station_id": "Тосно",
+        "to_station_id": "RU.STN.Tosno",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
