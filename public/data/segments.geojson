@@ -788,15 +788,15 @@
             19.348144
           ],
           [
-            56.3962274,
-            38.7015984
+            52.8758646,
+            18.6963912
           ]
         ]
       },
       "properties": {
         "segment_id": "SEG_AUTO_000034",
         "from_station_id": "PL.STN.Kutno",
-        "to_station_id": "RU.STN.Aleksandrov-1",
+        "to_station_id": "PL.STN.Aleksandrow_Kujawski",
         "geometry_source": "auto_combined_csv",
         "geometry_quality": "historic_approx",
         "is_current": null,
@@ -805,25 +805,13 @@
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            59.443955,
-            24.7700461
-          ],
-          [
-            52.229722,
-            21.009444
-          ]
-        ]
-      },
+      "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000035",
-        "from_station_id": "EE.STN.Tallinn",
+        "from_station_id": "EE.STN.Lentvaris",
         "to_station_id": "PL.STN.Warszawa_Wiedenska",
-        "geometry_source": "auto_combined_csv",
-        "geometry_quality": "historic_approx",
+        "geometry_source": "",
+        "geometry_quality": "",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -910,8 +898,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            56.7505132,
-            60.759751
+            46.8503034,
+            30.0737425
           ],
           [
             46.7541252,
@@ -921,7 +909,7 @@
       },
       "properties": {
         "segment_id": "SEG_AUTO_000040",
-        "from_station_id": "RU.STN.Razdelnaya",
+        "from_station_id": "UA.STN.Rozdilna-1",
         "to_station_id": "UA.STN.Kuchurgan",
         "geometry_source": "auto_combined_csv",
         "geometry_quality": "historic_approx",
@@ -1165,15 +1153,15 @@
             22.3928588
           ],
           [
-            52.4449451,
-            15.5936247
+            51.9760347,
+            22.7855957
           ]
         ]
       },
       "properties": {
         "segment_id": "SEG_AUTO_000051",
         "from_station_id": "PL.STN.Lukow",
-        "to_station_id": "PL.STN.Miedzyrzecz",
+        "to_station_id": "PL.STN.Miedzyrzec_Podlaski",
         "geometry_source": "auto_combined_csv",
         "geometry_quality": "historic_approx",
         "is_current": null,
@@ -1207,13 +1195,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            47.8743769,
+            29.6249684
+          ],
+          [
+            48.0413483,
+            30.8514678
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000053",
         "from_station_id": "UA.STN.Balta",
-        "to_station_id": "Голта",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "UA.STN.Holta",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -1224,19 +1224,19 @@
         "type": "LineString",
         "coordinates": [
           [
-            52.4449451,
-            15.5936247
+            51.9760347,
+            22.7855957
           ],
           [
-            50.1658122,
-            23.1257623
+            52.0742776,
+            23.6015831
           ]
         ]
       },
       "properties": {
         "segment_id": "SEG_AUTO_000054",
-        "from_station_id": "PL.STN.Miedzyrzecz",
-        "to_station_id": "PL.STN.Lubaczow",
+        "from_station_id": "PL.STN.Miedzyrzec_Podlaski",
+        "to_station_id": "PL.STN.Terespol",
         "geometry_source": "auto_combined_csv",
         "geometry_quality": "historic_approx",
         "is_current": null,
@@ -1345,13 +1345,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            48.0413483,
+            30.8514678
+          ],
+          [
+            48.1174969,
+            31.5254285
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000059",
-        "from_station_id": "Голта",
+        "from_station_id": "UA.STN.Holta",
         "to_station_id": "UA.STN.Kropivnitska",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -1692,15 +1704,15 @@
             33.4335275
           ],
           [
-            57.2480796,
-            47.8234426
+            48.7103874,
+            32.689763
           ]
         ]
       },
       "properties": {
         "segment_id": "SEG_AUTO_000074",
         "from_station_id": "UA.STN.Kryukv-na-Dnpr",
-        "to_station_id": "RU.STN.Znamenka",
+        "to_station_id": "UA.STN.Znamyanka-Passazhyrska",
         "geometry_source": "auto_combined_csv",
         "geometry_quality": "historic_approx",
         "is_current": null,
@@ -1712,7 +1724,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000075",
-        "from_station_id": "RU.STN.Znamenka",
+        "from_station_id": "UA.STN.Znamyanka-Passazhyrska",
         "to_station_id": "соединение с Юго-западными ж. д. (на Елисав)",
         "geometry_source": "",
         "geometry_quality": "",
@@ -1768,15 +1780,15 @@
             36.203278
           ],
           [
-            49.6106092,
-            25.6657954
+            48.8913652,
+            36.3189782
           ]
         ]
       },
       "properties": {
         "segment_id": "SEG_AUTO_000078",
         "from_station_id": "UA.STN.Kharkiv-Pasazhyrskyi",
-        "to_station_id": "UA.STN.Lozova",
+        "to_station_id": "UA.STN.Lozova-1",
         "geometry_source": "auto_combined_csv",
         "geometry_quality": "historic_approx",
         "is_current": null,
@@ -1788,7 +1800,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000079",
-        "from_station_id": "UA.STN.Lozova",
+        "from_station_id": "UA.STN.Lozova-1",
         "to_station_id": "Горловка (Никитовка)",
         "geometry_source": "",
         "geometry_quality": "",
