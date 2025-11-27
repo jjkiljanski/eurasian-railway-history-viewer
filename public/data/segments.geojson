@@ -1902,7 +1902,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000085",
-        "from_station_id": "Dnipro-Holovnyi",
+        "from_station_id": "UA.STN.Dnipro-Holovnyi",
         "to_station_id": "UA.STN.Kiv-Pasazhirskiy",
         "geometry_source": "",
         "geometry_quality": "",
@@ -1940,7 +1940,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000087",
-        "from_station_id": "Казатин",
+        "from_station_id": "UA.STN.Kazatin_1",
         "to_station_id": "UA.STN.Kiv-Pasazhirskiy",
         "geometry_source": "",
         "geometry_quality": "",
@@ -5234,7 +5234,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000321",
-        "from_station_id": "Казатин",
+        "from_station_id": "UA.STN.Kazatin_1",
         "to_station_id": "Умань",
         "geometry_source": "",
         "geometry_quality": "",
@@ -12655,7 +12655,7 @@
       "properties": {
         "segment_id": "SEG_AUTO_000889",
         "from_station_id": "Сестреновка",
-        "to_station_id": "Казатин II",
+        "to_station_id": "UA.STN.Koziatyn_2",
         "geometry_source": "",
         "geometry_quality": "",
         "is_current": null,
