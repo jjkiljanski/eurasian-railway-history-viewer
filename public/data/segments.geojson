@@ -499,15 +499,15 @@
             28.3646835
           ],
           [
-            53.5631321,
-            33.6963136
+            57.3544374,
+            28.3168595
           ]
         ]
       },
       "properties": {
         "segment_id": "SEG_AUTO_000021",
         "from_station_id": "RU.STN.Pskov-Passazhirskiy",
-        "to_station_id": "RU.STN.Ostrov-1",
+        "to_station_id": "RU.STN.Ostrov",
         "geometry_source": "auto_combined_csv",
         "geometry_quality": "historic_approx",
         "is_current": null,
@@ -519,7 +519,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000022",
-        "from_station_id": "RU.STN.Ostrov-1",
+        "from_station_id": "RU.STN.Ostrov",
         "to_station_id": "Вержболово",
         "geometry_source": "",
         "geometry_quality": "",
@@ -696,8 +696,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            55.6907728,
-            37.7530544
+            48.6942,
+            44.5087
           ],
           [
             48.6923418,
@@ -707,7 +707,7 @@
       },
       "properties": {
         "segment_id": "SEG_AUTO_000030",
-        "from_station_id": "RU.STN.Volzhskaya-1",
+        "from_station_id": "RU.STN.Volzhskaya",
         "to_station_id": "RU.STN.Donskaya",
         "geometry_source": "auto_combined_csv",
         "geometry_quality": "historic_approx",
@@ -1374,8 +1374,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            57.2480796,
-            47.8234426
+            48.7103874,
+            32.689763
           ],
           [
             48.1174969,
@@ -1385,7 +1385,7 @@
       },
       "properties": {
         "segment_id": "SEG_AUTO_000060",
-        "from_station_id": "RU.STN.Znamenka",
+        "from_station_id": "UA.STN.Znamyanka-Passazhyrska",
         "to_station_id": "UA.STN.Kropivnitska",
         "geometry_source": "auto_combined_csv",
         "geometry_quality": "historic_approx",
@@ -3312,8 +3312,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            49.6106092,
-            25.6657954
+            48.8913652,
+            36.3189782
           ],
           [
             47.7952653,
@@ -3323,7 +3323,7 @@
       },
       "properties": {
         "segment_id": "SEG_AUTO_000174",
-        "from_station_id": "UA.STN.Lozova",
+        "from_station_id": "UA.STN.Lozova-1",
         "to_station_id": "UA.STN.Zaporzhzhya_1",
         "geometry_source": "auto_combined_csv",
         "geometry_quality": "historic_approx",
