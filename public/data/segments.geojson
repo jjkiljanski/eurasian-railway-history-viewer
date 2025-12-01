@@ -516,26 +516,50 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            57.3544374,
+            28.3168595
+          ],
+          [
+            54.6411488,
+            22.7593479
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000022",
         "from_station_id": "RU.STN.Ostrov",
-        "to_station_id": "Вержболово",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "LT.STN.Kybartai",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            54.886228,
+            23.9317431
+          ],
+          [
+            54.6411488,
+            22.7593479
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000023",
         "from_station_id": "LT.STN.Kaunas",
-        "to_station_id": "Вержболово",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "LT.STN.Kybartai",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -881,13 +905,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            46.4663909,
+            30.7403656
+          ],
+          [
+            47.7500196,
+            29.5286062
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000039",
         "from_station_id": "UA.STN.Odesa-Holovna",
-        "to_station_id": "Бирзула",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "UA.STN.Podilsk",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -1019,13 +1055,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.2515889,
+            21.0523678
+          ],
+          [
+            52.1617935,
+            22.2719159
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000045",
-        "from_station_id": "Прага",
+        "from_station_id": "PL.STN.Warszawa_Dworzec_Terespolski",
         "to_station_id": "PL.STN.Siedlce",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -1132,13 +1180,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.8758646,
+            18.6963912
+          ],
+          [
+            52.88121,
+            18.788678
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000050",
-        "from_station_id": "RU.STN.Aleksandrov-1",
-        "to_station_id": "Цехоцинск",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "PL.STN.Aleksandrow_Kujawski",
+        "to_station_id": "PL.STN.Ciechocinek",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -1658,13 +1718,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            50.5143973,
+            30.8137269
+          ],
+          [
+            48.4777631,
+            35.0150993
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000072",
         "from_station_id": "UA.STN.Brovary",
-        "to_station_id": "Dnipro-Holovnyi",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "UA.STN.Dnipro-Holovnyi",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -1759,13 +1831,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            47.2176332,
+            39.6907722
+          ],
+          [
+            48.3117804,
+            38.0443051
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000077",
         "from_station_id": "RU.STN.Rostov-Glavnyy",
-        "to_station_id": "Горловка (Никитовка)",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "UA.STN.Horlivska",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -1797,13 +1881,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            48.8913652,
+            36.3189782
+          ],
+          [
+            48.3117804,
+            38.0443051
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000079",
         "from_station_id": "UA.STN.Lozova-1",
-        "to_station_id": "Горловка (Никитовка)",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "UA.STN.Horlivska",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -2038,13 +2134,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            47.7500196,
+            29.5286062
+          ],
+          [
+            49.0345312,
+            28.1115461
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000092",
-        "from_station_id": "Бирзула",
+        "from_station_id": "UA.STN.Podilsk",
         "to_station_id": "UA.STN.Zhmerynka",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -2414,39 +2522,75 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            57.0178157,
+            40.9800828
+          ],
+          [
+            57.4414053,
+            42.1447851
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000108",
-        "from_station_id": "Иваново",
-        "to_station_id": "Кинешма",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Ivanovo",
+        "to_station_id": "RU.STN.Kineshma",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.8134871,
+            37.2370594
+          ],
+          [
+            52.4280978,
+            37.5987363
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000109",
-        "from_station_id": "Верховье",
-        "to_station_id": "Ливны",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Verkhove",
+        "to_station_id": "RU.STN.Livny-1",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            59.1229823,
+            31.6777883
+          ],
+          [
+            58.5267442,
+            31.2502224
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000110",
-        "from_station_id": "Чудово",
-        "to_station_id": "Новгород",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Chudovo-Moskovskoe",
+        "to_station_id": "RU.STN.Velikiy_Novgorod",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -2478,13 +2622,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            50.5380244,
+            42.6712711
+          ],
+          [
+            48.712854,
+            44.5133104
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000112",
         "from_station_id": "RU.STN.Filonovo",
-        "to_station_id": "Царицын",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "RU.STN.Volgograd_1",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -2516,13 +2672,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            50.9729831,
+            42.3595913
+          ],
+          [
+            50.798334,
+            42.0065467
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000114",
-        "from_station_id": "Алексиково",
-        "to_station_id": "Урюпино",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Aleksikovo",
+        "to_station_id": "RU.STN.Uryupino",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
