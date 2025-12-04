@@ -1055,25 +1055,13 @@
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            52.2515889,
-            21.0523678
-          ],
-          [
-            52.1617935,
-            22.2719159
-          ]
-        ]
-      },
+      "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000045",
         "from_station_id": "PL.STN.Warszawa_Dworzec_Terespolski",
         "to_station_id": "PL.STN.Siedlce",
-        "geometry_source": "auto_combined_csv",
-        "geometry_quality": "historic_approx",
+        "geometry_source": "",
+        "geometry_quality": "",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -1180,25 +1168,13 @@
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            52.8758646,
-            18.6963912
-          ],
-          [
-            52.88121,
-            18.788678
-          ]
-        ]
-      },
+      "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000050",
         "from_station_id": "PL.STN.Aleksandrow_Kujawski",
         "to_station_id": "PL.STN.Ciechocinek",
-        "geometry_source": "auto_combined_csv",
-        "geometry_quality": "historic_approx",
+        "geometry_source": "",
+        "geometry_quality": "",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -6072,13 +6048,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            43.1111519,
+            131.8820138
+          ],
+          [
+            43.801559,
+            131.9812104
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000358",
-        "from_station_id": "Владивосток",
-        "to_station_id": "Никольск Уссурийский",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Vladivostok",
+        "to_station_id": "RU.STN.Ussuriysk",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -6345,13 +6333,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            43.801559,
+            131.9812104
+          ],
+          [
+            44.604581,
+            132.8243722
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000379",
-        "from_station_id": "Никольск Уссурийский",
-        "to_station_id": "Евгеньевка",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Ussuriysk",
+        "to_station_id": "RU.STN.Spassk-Dalniy",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -6462,13 +6462,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            44.604581,
+            132.8243722
+          ],
+          [
+            45.3153671,
+            133.3636914
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000388",
-        "from_station_id": "Евгеньевка",
-        "to_station_id": "Кауль",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Spassk-Dalniy",
+        "to_station_id": "RU.STN.Kabarga",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -6592,13 +6604,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            45.3153671,
+            133.3636914
+          ],
+          [
+            45.8765405,
+            133.6455245
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000398",
-        "from_station_id": "Кауль",
-        "to_station_id": "ст. Муравьев Амурский",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Kabarga",
+        "to_station_id": "RU.STN.Lazo",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -6683,13 +6707,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            45.8765405,
+            133.6455245
+          ],
+          [
+            45.9353683,
+            133.7234857
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000405",
-        "from_station_id": "Ст. Муравьев Амурский",
-        "to_station_id": "Иман",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Lazo",
+        "to_station_id": "RU.STN.Dalnerechensk_I",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -7653,13 +7689,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.6059442,
+            38.5257454
+          ],
+          [
+            50.1998731,
+            38.1220901
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000475",
         "from_station_id": "RU.STN.Elets",
-        "to_station_id": "Валуйки",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "RU.STN.Valuyki",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -7731,13 +7779,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            45.9353683,
+            133.7234857
+          ],
+          [
+            48.4969513,
+            135.0730118
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000481",
-        "from_station_id": "Иман",
-        "to_station_id": "Хабаровск",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Dalnerechensk_I",
+        "to_station_id": "RU.STN.Khabarovsk_I",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -8105,26 +8165,50 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            56.0058407,
+            92.8293836
+          ],
+          [
+            52.3370015,
+            104.213975
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000507",
         "from_station_id": "RU.STN.Krasnoyarsk",
-        "to_station_id": "Инокентьевская",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "RU.STN.Irkutsk-Sortirovochnyy",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.3370015,
+            104.213975
+          ],
+          [
+            52.2826492,
+            104.2605399
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000508",
-        "from_station_id": "Инокентьевская",
-        "to_station_id": "Иркутск",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Irkutsk-Sortirovochnyy",
+        "to_station_id": "RU.STN.Irkutsk-Passazhirskiy",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -8583,13 +8667,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            43.801559,
+            131.9812104
+          ],
+          [
+            44.4067496,
+            131.3741612
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000541",
-        "from_station_id": "Никольск Уссурийский",
-        "to_station_id": "Гродеково",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Ussuriysk",
+        "to_station_id": "RU.STN.Grodekovo",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -8752,39 +8848,75 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.2826492,
+            104.2605399
+          ],
+          [
+            51.8703899,
+            104.809185
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000554",
-        "from_station_id": "Иркутск",
-        "to_station_id": "Байкал",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Irkutsk-Passazhirskiy",
+        "to_station_id": "RU.STN.Baykal",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            51.7183817,
+            105.8634541
+          ],
+          [
+            51.6314509,
+            114.5005939
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000555",
-        "from_station_id": "Мысовая",
-        "to_station_id": "Китайский разъезд",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Mysovaya",
+        "to_station_id": "RU.STN.Tarskaya",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            51.6314509,
+            114.5005939
+          ],
+          [
+            52.2510273,
+            117.6950937
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000556",
-        "from_station_id": "Китайский разъезд",
-        "to_station_id": "Сретенск",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Tarskaya",
+        "to_station_id": "RU.STN.Sretensk",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -9311,13 +9443,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            51.6314509,
+            114.5005939
+          ],
+          [
+            49.3957,
+            117.1847
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000597",
-        "from_station_id": "Китайский разъезд",
-        "to_station_id": "граница Империи",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Tarskaya",
+        "to_station_id": "RU.STN.Granitsa_Imperii",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -9623,39 +9767,75 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            51.555041,
+            105.1133011
+          ],
+          [
+            51.7183817,
+            105.8634541
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000621",
-        "from_station_id": "Танхой",
-        "to_station_id": "Мысовая",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Tankhoy-1",
+        "to_station_id": "RU.STN.Mysovaya",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            49.3957,
+            117.1847
+          ],
+          [
+            49.5841146,
+            117.44403
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000622",
-        "from_station_id": "Граница Империи",
-        "to_station_id": "Манчжурия",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Granitsa_Imperii",
+        "to_station_id": "RU.STN.Manzhouli",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            44.4067496,
+            131.3741612
+          ],
+          [
+            44.24,
+            131.23
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000623",
-        "from_station_id": "Гродеково",
-        "to_station_id": "Пограничная",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Grodekovo",
+        "to_station_id": "RU.STN.Pogranichny",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -9948,13 +10128,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            51.6584834,
+            103.7238875
+          ],
+          [
+            51.555041,
+            105.1133011
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000646",
-        "from_station_id": "Слюдянка",
-        "to_station_id": "Танхой",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Slyudyanka_I",
+        "to_station_id": "RU.STN.Tankhoy-1",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -9974,13 +10166,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            51.8703899,
+            104.809185
+          ],
+          [
+            51.6584834,
+            103.7238875
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000648",
-        "from_station_id": "Байкал",
-        "to_station_id": "Слюдянка",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Baykal",
+        "to_station_id": "RU.STN.Slyudyanka_I",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -11765,13 +11969,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.06878,
+            117.0511176
+          ],
+          [
+            48.4969513,
+            135.0730118
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000783",
-        "from_station_id": "Куэнга",
-        "to_station_id": "Хабаровск",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Kuenga",
+        "to_station_id": "RU.STN.Khabarovsk_I",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -15608,7 +15824,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_001071",
-        "from_station_id": "Бердяуш",
+        "from_station_id": "RU.STN.Berdyaush",
         "to_station_id": "Крапочево",
         "geometry_source": "",
         "geometry_quality": "",
@@ -18100,13 +18316,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            55.1591165,
+            59.1446968
+          ],
+          [
+            51.8703899,
+            104.809185
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_001262",
-        "from_station_id": "Бердяуш",
-        "to_station_id": "Байкал",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Berdyaush",
+        "to_station_id": "RU.STN.Baykal",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -18165,13 +18393,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.2826492,
+            104.2605399
+          ],
+          [
+            51.6584834,
+            103.7238875
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_001267",
-        "from_station_id": "Иркутск",
-        "to_station_id": "Слюдянка",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Irkutsk-Passazhirskiy",
+        "to_station_id": "RU.STN.Slyudyanka_I",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -19074,13 +19314,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.2826492,
+            104.2605399
+          ],
+          [
+            53.1490229,
+            103.0850785
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_001336",
-        "from_station_id": "Иркутск",
-        "to_station_id": "Черемхово",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Irkutsk-Passazhirskiy",
+        "to_station_id": "RU.STN.Cheremkhovo",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -20541,13 +20793,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            43.1111519,
+            131.8820138
+          ],
+          [
+            43.3692798,
+            131.9920138
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_001447",
-        "from_station_id": "Владивосток",
-        "to_station_id": "Надеждинская",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Vladivostok",
+        "to_station_id": "RU.STN.Nadezhdinskaya",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -21152,13 +21416,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            43.3692798,
+            131.9920138
+          ],
+          [
+            43.801559,
+            131.9812104
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_001494",
-        "from_station_id": "Надеждинская",
-        "to_station_id": "Уссурийск",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Nadezhdinskaya",
+        "to_station_id": "RU.STN.Ussuriysk",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -21943,13 +22219,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            48.4969513,
+            135.0730118
+          ],
+          [
+            49.0000955,
+            132.4631028
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_001553",
-        "from_station_id": "Хабаровск",
-        "to_station_id": "Бира",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Khabarovsk_I",
+        "to_station_id": "RU.STN.Bira",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -22189,13 +22477,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            48.4969513,
+            135.0730118
+          ],
+          [
+            48.4260823,
+            135.1282901
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_001571",
-        "from_station_id": "Хабаровск I",
-        "to_station_id": "Хабаровск II",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Khabarovsk_I",
+        "to_station_id": "RU.STN.Khabarovsk_II",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -22488,13 +22788,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            49.0000955,
+            132.4631028
+          ],
+          [
+            49.4206023,
+            130.0751166
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_001594",
-        "from_station_id": "Бира",
-        "to_station_id": "Архара",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Bira",
+        "to_station_id": "RU.STN.Arkhara",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -23540,13 +23852,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            49.4206023,
+            130.0751166
+          ],
+          [
+            50.1172327,
+            129.4508014
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_001674",
-        "from_station_id": "Архара",
-        "to_station_id": "Завитая",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "RU.STN.Arkhara",
+        "to_station_id": "RU.STN.Zavitaya",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
