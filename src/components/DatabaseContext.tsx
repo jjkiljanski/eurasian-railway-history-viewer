@@ -430,9 +430,9 @@ export function DatabaseProvider({ children }: DatabaseProviderProps) {
           GROUP BY segment_id
         ),
         electrified_years AS (
-          SELECT segment_id, MAX(EXTRACT(YEAR FROM CAST(date AS DATE))) AS electrified_year
+          SELECT segment_id, MIN(EXTRACT(YEAR FROM CAST(date AS DATE))) AS electrified_year
           FROM events
-          WHERE segment_id IS NOT NULL AND event_type = 'electrification' AND EXTRACT(YEAR FROM CAST(date AS DATE)) <= ${year}
+          WHERE segment_id IS NOT NULL AND event_type = 'electrification'
           GROUP BY segment_id
         )
         SELECT
@@ -450,7 +450,8 @@ export function DatabaseProvider({ children }: DatabaseProviderProps) {
             WHEN c.close_year IS NOT NULL AND c.close_year = ${year} THEN 'closed'
             WHEN el.electrified_year = ${year} THEN 'electrified'
             WHEN o.open_year IS NOT NULL AND o.open_year = ${year} THEN 'new'
-            ELSE 'existing'
+            WHEN o.open_year IS NOT NULL AND o.open_year < ${year} THEN 'existing'
+            ELSE NULL
           END AS state_label
         FROM base b
         LEFT JOIN open_years o USING (segment_id)
