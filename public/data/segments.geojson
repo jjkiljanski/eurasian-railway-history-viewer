@@ -2911,39 +2911,75 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            51.5265865,
+            45.9911299
+          ],
+          [
+            51.5049187,
+            45.9830965
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000125",
         "from_station_id": "RU.STN.Saratov_II",
-        "to_station_id": "Весенняя пристань",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "RU.STN.Saratov-Port",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            48.1217816,
+            37.8454052
+          ],
+          [
+            47.8367359,
+            37.6509447
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000126",
-        "from_station_id": "Ясиноватая",
-        "to_station_id": "Еленовка",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "UA.STN.Yasinuvata-Pasazhirska",
+        "to_station_id": "UA.STN.Olenvka",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            49.2252253,
+            31.800741
+          ],
+          [
+            48.1217816,
+            37.8454052
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000127",
-        "from_station_id": "Константиновка",
-        "to_station_id": "Ясиноватая",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "UA.STN.Kostiantynivka",
+        "to_station_id": "UA.STN.Yasinuvata-Pasazhirska",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -2975,65 +3011,125 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            49.8895725,
+            28.6131692
+          ],
+          [
+            50.3616282,
+            26.7002548
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000129",
         "from_station_id": "UA.STN.Berdychiv",
-        "to_station_id": "Кривин",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "UA.STN.Kryvyn",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            53.7873736,
+            39.24057
+          ],
+          [
+            53.8250267,
+            39.5761152
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000130",
-        "from_station_id": "Павелец",
+        "from_station_id": "RU.STN.Pavelets-Tulskiy",
         "to_station_id": "RU.STN.Skopin",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            56.9604267,
+            24.0930377
+          ],
+          [
+            57.0185944,
+            24.1296303
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000131",
         "from_station_id": "EE.STN.Riga",
-        "to_station_id": "Мюльграбен",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "LV.STN.Mangai",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            42.107972,
+            43.0390879
+          ],
+          [
+            41.721053,
+            44.7995883
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000132",
-        "from_station_id": "Квирилы",
-        "to_station_id": "Тифлис",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "GE.STN.Zestafoni",
+        "to_station_id": "GE.STN.Tbilisi_Central_Station",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            41.9990489,
+            43.6012787
+          ],
+          [
+            42.016389,
+            43.561389
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000133",
-        "from_station_id": "Михайлово",
-        "to_station_id": "Сурам",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "GE.STN.Khashuri",
+        "to_station_id": "RU.STN.Surami",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -3090,13 +3186,25 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            48.1217816,
+            37.8454052
+          ],
+          [
+            49.2252253,
+            31.800741
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000136",
-        "from_station_id": "Ясиноватая",
-        "to_station_id": "Константиновка",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "UA.STN.Yasinuvata-Pasazhirska",
+        "to_station_id": "UA.STN.Kostiantynivka",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -3116,65 +3224,125 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            54.6939578,
+            25.4087263
+          ],
+          [
+            53.8905701,
+            27.5490868
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000138",
-        "from_station_id": "Нововилейск",
-        "to_station_id": "Минск",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "LT.STN.Naujoji_Vilnia",
+        "to_station_id": "BY.STN.Minsk_Pasazhyrski",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            56.9604267,
+            24.0930377
+          ],
+          [
+            57.0192259,
+            24.0496854
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000139",
         "from_station_id": "EE.STN.Riga",
-        "to_station_id": "Больдераа",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "LV.STN.Bolderja",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.1004334,
+            23.6804112
+          ],
+          [
+            53.650103,
+            22.448183
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000140",
         "from_station_id": "BY.STN.Brest-Zentralny",
-        "to_station_id": "Граево",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "PL.STN.Grajewo",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            53.650103,
+            22.448183
+          ],
+          [
+            53.6951398,
+            22.4317785
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000141",
-        "from_station_id": "Граево",
-        "to_station_id": "прусская граница (0,673 саж.)",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "PL.STN.Grajewo",
+        "to_station_id": "PL.STN.Prostki",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            50.3616282,
+            26.7002548
+          ],
+          [
+            51.2212513,
+            24.7124893
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000142",
-        "from_station_id": "Кривин",
-        "to_station_id": "Ковель",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "from_station_id": "UA.STN.Kryvyn",
+        "to_station_id": "UA.STN.Kovel",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
@@ -3184,7 +3352,7 @@
       "geometry": null,
       "properties": {
         "segment_id": "SEG_AUTO_000143",
-        "from_station_id": "Ковель",
+        "from_station_id": "UA.STN.Kovel",
         "to_station_id": "соединение с Юго-Западными ж. д.",
         "geometry_source": "",
         "geometry_quality": "",
@@ -3194,39 +3362,75 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            47.013054,
+            28.8602002
+          ],
+          [
+            47.3628544,
+            28.0025621
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000144",
         "from_station_id": "MD.STN.Chisinau",
-        "to_station_id": "Корнешты",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "MD.STN.Corneti",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            51.2212513,
+            24.7124893
+          ],
+          [
+            52.1004334,
+            23.6804112
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000145",
-        "from_station_id": "Ковель",
+        "from_station_id": "UA.STN.Kovel",
         "to_station_id": "BY.STN.Brest-Zentralny",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            57.2480796,
+            47.8234426
+          ],
+          [
+            46.957447,
+            31.9756694
+          ]
+        ]
+      },
       "properties": {
         "segment_id": "SEG_AUTO_000146",
         "from_station_id": "RU.STN.Znamenka",
-        "to_station_id": "Николаев",
-        "geometry_source": "",
-        "geometry_quality": "",
+        "to_station_id": "UA.STN.Mikolav-Vantazhniy",
+        "geometry_source": "auto_combined_csv",
+        "geometry_quality": "historic_approx",
         "is_current": null,
         "notes": "Auto-generated from ready_railways_from_afonina.csv"
       }
